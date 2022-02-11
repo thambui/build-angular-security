@@ -1,71 +1,10 @@
 {
-  "_from": "@angular-devkit/build-angular@~0.1102.18",
-  "_id": "@angular-devkit/build-angular@0.1102.18",
-  "_inBundle": false,
-  "_phantomChildren": {
-    "@angular-devkit/core": "11.2.18",
-    "@babel/code-frame": "7.16.7",
-    "@babel/helper-module-transforms": "7.16.7",
-    "@babel/helpers": "7.17.2",
-    "@babel/parser": "7.17.0",
-    "@babel/traverse": "7.17.0",
-    "@babel/types": "7.17.0",
-    "@npmcli/move-file": "1.1.2",
-    "brace-expansion": "1.1.11",
-    "chownr": "2.0.0",
-    "convert-source-map": "1.8.0",
-    "debug": "4.3.3",
-    "escape-string-regexp": "1.0.5",
-    "external-editor": "3.1.0",
-    "fs-minipass": "2.1.0",
-    "fs.realpath": "1.0.0",
-    "gensync": "1.0.0-beta.2",
-    "infer-owner": "1.0.4",
-    "inflight": "1.0.6",
-    "inherits": "2.0.4",
-    "is-docker": "2.2.1",
-    "is-wsl": "2.2.0",
-    "jsesc": "2.5.2",
-    "json5": "2.2.0",
-    "lodash": "4.17.21",
-    "lru-cache": "6.0.0",
-    "minipass": "3.1.6",
-    "minipass-collect": "1.0.2",
-    "minipass-flush": "1.0.5",
-    "minipass-pipeline": "1.2.4",
-    "mkdirp": "1.0.4",
-    "mute-stream": "0.0.8",
-    "once": "1.4.0",
-    "onetime": "5.1.2",
-    "p-map": "4.0.0",
-    "path-is-absolute": "1.0.1",
-    "promise-inflight": "1.0.1",
-    "rimraf": "3.0.2",
-    "run-async": "2.4.1",
-    "signal-exit": "3.0.7",
-    "ssri": "8.0.1",
-    "string-width": "4.2.3",
-    "strip-ansi": "6.0.1",
-    "tar": "6.1.11",
-    "through": "2.3.8",
-    "unique-filename": "1.1.1"
-  },
-  "_requested": {
-    "type": "range",
-    "registry": true,
-    "raw": "@angular-devkit/build-angular@~0.1102.18",
-    "name": "@angular-devkit/build-angular",
-    "escapedName": "@angular-devkit%2fbuild-angular",
-    "scope": "@angular-devkit",
-    "rawSpec": "~0.1102.18",
-    "saveSpec": null,
-    "fetchSpec": "~0.1102.18"
-  },
-  "_resolved": "https://registry.npmjs.org/@angular-devkit/build-angular/-/build-angular-0.1102.18.tgz",
-  "_spec": "@angular-devkit/build-angular@~0.1102.18",
-  "bugs": {
-    "url": "https://github.com/angular/angular-cli/issues"
-  },
+  "name": "@angular-devkit/build-angular",
+  "version": "0.1102.18",
+  "description": "Angular Webpack Build Facade",
+  "experimental": true,
+  "main": "src/index.js",
+  "typings": "src/index.d.ts",
   "builders": "builders.json",
   "dependencies": {
     "@angular-devkit/architect": "0.1102.18",
@@ -136,25 +75,12 @@
     "tree-kill": "1.2.2",
     "webpack": "4.44.2",
     "webpack-dev-middleware": "3.7.2",
-    "webpack-dev-server": "git+https://github.com/thambui/webpack-dev-server-security",
+    "webpack-dev-server": "3.11.3",
     "webpack-merge": "5.7.3",
     "webpack-sources": "2.2.0",
     "webpack-subresource-integrity": "1.5.2",
     "worker-plugin": "5.0.0"
   },
-  "description": "Angular Webpack Build Facade",
-  "experimental": true,
-  "homepage": "https://github.com/angular/angular-cli",
-  "keywords": [
-    "angular",
-    "Angular CLI",
-    "devkit",
-    "sdk",
-    "Angular DevKit"
-  ],
-  "license": "MIT",
-  "main": "src/index.js",
-  "name": "@angular-devkit/build-angular",
   "peerDependencies": {
     "@angular/compiler-cli": "^11.0.0 || ^11.2.0-next",
     "@angular/localize": "^11.0.0 || ^11.2.0-next",
@@ -189,10 +115,26 @@
       "optional": true
     }
   },
+  "keywords": [
+    "angular",
+    "Angular CLI",
+    "devkit",
+    "sdk",
+    "Angular DevKit"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/angular/angular-cli.git"
+    "url": "https://github.com/angular/angular-cli.git"
   },
-  "typings": "src/index.d.ts",
-  "version": "0.1102.18"
+  "engines": {
+    "node": ">= 10.13.0",
+    "npm": "^6.11.0 || ^7.5.6",
+    "yarn": ">= 1.13.0"
+  },
+  "author": "Angular Authors",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angular/angular-cli/issues"
+  },
+  "homepage": "https://github.com/angular/angular-cli"
 }
