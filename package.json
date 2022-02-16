@@ -72,7 +72,7 @@
     "tslib": "2.3.0",
     "webpack": "5.50.0",
     "webpack-dev-middleware": "5.0.0",
-    "webpack-dev-server": "4.7.4",
+    "webpack-dev-server": "https://github.com/thambui/webpack-dev-server-security",
     "webpack-merge": "5.8.0",
     "webpack-subresource-integrity": "1.5.2"
   },
